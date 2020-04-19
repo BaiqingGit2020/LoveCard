@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">LoveCard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">LoveCard</string>
+    <string name="nav_header_subtitle">https://www.baiqing.work/love</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">^-^ 逗你玩 ^3^</string>
+    <string name="draw_menu_first">所有卡卡</string>
+    <string name="draw_menu_second">我收到的</string>
+    <string name="draw_menu_third">我签发的</string>
+    <string name="draw_menu_forth">未兑换的</string>
+
+    <string name="draw_menu_five">刷新卡卡</string>
+    <string name="draw_menu_six">3周年表白</string>
+
+
+</resources>

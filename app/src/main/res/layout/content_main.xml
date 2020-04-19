@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:clipChildren="false"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <com.school.baiqing.lovecard.SwipeCardView.SwipeCardRecyclerView
+        android:id="@+id/SwipCardView"
+        android:layout_width="@dimen/swipcard_width"
+        android:layout_height="@dimen/swipcard_height"
+        android:layout_centerInParent="true">
+    </com.school.baiqing.lovecard.SwipeCardView.SwipeCardRecyclerView>
+    <com.github.ybq.android.spinkit.SpinKitView
+        android:id="@+id/spin_kit_love_card"
+        style="@style/SpinKitView.Large.Circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="visible"
+        app:SpinKit_Color="@color/origin" />
+
+</RelativeLayout>
